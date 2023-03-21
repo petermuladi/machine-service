@@ -57,7 +57,7 @@ The application allows users to:
 -	MariaDB 10.4.25
 
 ## Documentation
-- **Find in** -> **pdf-diagrams** -> **📊UML diagrams**
+- **Find in** -> **uml-diagrams** -> **📊UML diagrams**
 - Deployment 
 - Package 
 - UseCase
