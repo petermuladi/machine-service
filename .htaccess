@@ -1,0 +1,12 @@
+<IfModule mod_rewrite.c>
+Options +FollowSymLinks
+RewriteEngine On
+#permission to access
+Options -Indexes
+#if not folder
+RewriteCond %{SCRIPT_FILENAME} !-d
+#if not file
+RewriteCond %{SCRIPT_FILENAME} !-f
+#please service index.php
+RewriteRule ^.*$ ./index.php
+</IfModule>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title></title>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="author" content="Muladi Péter">
+      <!--CSS -->
+      <link rel="stylesheet" href="../style/css/bootstrap.min.css">
+   </head>
+   <body>
+      <!-- Navigation bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+         <div class="container">
+            <a class="navbar-brand" href="#" onclick="loadPage('index.html','Fóoldal','fooldal')">⚙Gépszervíz</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+                     <a class="nav-link" href="#" onclick="loadPage('index.html','Fóoldal', 'fooldal')">Főoldal</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#" onclick="loadPage('summary.html','Szervíz Összesítő','szervizosszesito')">Szervíz összesítő</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#" onclick="loadPage('form.html','Szervíz Leadási Lap','szervizleadasilap')">Szervíz leadási lap</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <!-- Content form or summary html area -->
+      <div class="container my-4">
+         <div
+            id="root">
+            <!-- Content -->
+            <div class="jumbotron">
+               <h1 class="display-4 text-center p-5">Üdvözöllek a Gépszervízben!</h1>
+               <p class="lead text-center display-6">🚀Jelenleg <strong id="count" class="text-danger"></strong> db gép van szervízen!</p>
+               <hr class="my-4">
+            </div>
+         </div>
+      </div>
+      <!-- JavaScript -->
+      <script src="../src/index.js"></script>
+      <script src="../src/router.js"></script>
+      <!-- jQuery, Popper.js, Bootstrap JS... -->
+      <script src="../style/js/jquery-3.6.3.js"></script>
+      <script src="../style/js/popper.min.js"></script>
+      <script src="../style/js/bootstrap.min.js"></script>
+      <script src="../style/js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>
