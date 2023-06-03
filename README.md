@@ -1,4 +1,4 @@
-## ⚙Machine Service App
+# ⚙Machine Service App
 
 #### This is a web application designed for managing and tracking the repair status of machines. It allows users to add and edit machines, view their repair history, and update the status of ongoing repairs.
 
