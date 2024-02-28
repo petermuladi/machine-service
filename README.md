@@ -1,4 +1,4 @@
-## ⚙Machine Service App
+# ⚙Machine Service App
 
 #### This is a web application designed for managing and tracking the repair status of machines. It allows users to add and edit machines, view their repair history, and update the status of ongoing repairs.
 
@@ -57,7 +57,7 @@ The application allows users to:
 -	MariaDB 10.4.25
 
 ## Documentation
-- **Find in** -> **pdf-diagrams** -> **📊UML diagrams**
+- **Find in** -> **uml-diagrams** folder -> **📊UML diagrams**
 - Deployment 
 - Package 
 - UseCase
