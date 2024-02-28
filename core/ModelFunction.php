@@ -4,13 +4,13 @@
 abstract class ModelFunction
 {
     //🚀Error Handling
-    private static function ResponseError(string $message)
+    private static function responseError(string $message)
     {
         return array("Response" => $message, "type" => "Error", "DateTime" => date("Y-m-d H:i:s"));
     }
 
     //GET all Products
-    public static function AllProduct(): array
+    public static function allProduct(): array
     {
         try {
 
@@ -26,7 +26,7 @@ abstract class ModelFunction
     }
 
     //GET all Contact
-    public static function AllContact(): array
+    public static function allContact(): array
     {
         try {
 
@@ -44,7 +44,7 @@ abstract class ModelFunction
     }
 
     //POST Add new product
-    public static function AddNewProduct(): array
+    public static function addNewProduct(): array
     {
         try {
 
@@ -63,7 +63,7 @@ abstract class ModelFunction
     }
 
     //POST Add new contact
-    public static function AddNewContact(): array
+    public static function addNewContact(): array
     {
         try {
 
@@ -82,7 +82,7 @@ abstract class ModelFunction
     }
 
     //PUT Update status
-    public static function Update(): array
+    public static function update(): array
     {
         try {
 
@@ -101,7 +101,7 @@ abstract class ModelFunction
     }
 
     //POST send mail
-    public static function SendEmail()
+    public static function sendEmail()
     {
         try {
 

@@ -3,7 +3,7 @@
 abstract class CoreController
 {
     // This method is called to route incoming requests to the appropriate function.
-    public static function Router()
+    public static function router()
     {
         // Access the global configuration variable.
         global $cfg;

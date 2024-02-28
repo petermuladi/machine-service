@@ -11,7 +11,7 @@ abstract class DatabaseConnect
     }
 
     // This method establishes a connection to the database
-    public static function Connect()
+    public static function connect()
     {
         global $cfg;
 
@@ -27,7 +27,7 @@ abstract class DatabaseConnect
     }
 
     // This method closes the database connection
-    public static function Disconnect()
+    public static function disconnect()
     {
         try {
             // Close the database connection

@@ -13,7 +13,7 @@ abstract class MailModel
 {
 
     // This method sends an email using PHPMailer and returns a boolean indicating success
-    public static function SendMail(array $data):bool
+    public static function sendMail(array $data):bool
     {
         // Access the global configuration variable
         global $cfg;

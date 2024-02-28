@@ -5,7 +5,7 @@ class SQLException extends Exception
 
     public function __construct(string $message, Throwable $previous)
     {
-        parent::__construct($message, 1000, $previous);   
+        parent::__construct($message, 1000, $previous);
     }
 
 }

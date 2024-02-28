@@ -3,7 +3,7 @@
 abstract class Model 
 {
     // This method returns an array of all products that are either not finished or were finished today.
-    public static function GetAll():array
+    public static function getAll():array
     {
         try {
             $con = DatabaseConnect::getConnection();
@@ -35,7 +35,7 @@ abstract class Model
 
 
     // This method returns an array of all contacts associated with a given product ID
-    public static function Contact($id):array
+    public static function contact($id):array
     {
 
         try {
@@ -53,7 +53,7 @@ abstract class Model
 
 
     //This method adds a new product to the database
-    public static function NewProduct(array $data)
+    public static function newProduct(array $data)
     {
         try {
 
@@ -75,7 +75,7 @@ abstract class Model
 
 
     // This method adds a new contact to the database for the most recently added product
-    public static function NewContact(array $data)
+    public static function newContact(array $data)
     {
         try {
 
@@ -93,7 +93,7 @@ abstract class Model
 
 
     //Change status
-    public static function NewStatus(array $data,$id)
+    public static function newStatus(array $data,$id)
     {
         try {
 
